@@ -1,0 +1,36 @@
+
+
+/* Make the height of the main row bigger */
+.slick-list{
+    height: 552px;
+    padding-top: 20px !important;
+}
+
+
+/* Change color on active item */
+div.slick-slide.slick-active.slick-center.slick-current{
+    transform: scale(1.05);
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 1;
+}
+
+/* Change the opacity to cards and overrite to above to active card*/
+.slick-initialized .slick-slide{
+    opacity: 0.5;
+    margin-right: 3px;
+}
+
+/* Clear margin from html tags and avoid the scrolling*/
+html, body {
+    margin:0px; 
+    height: 100%;
+    overflow: hidden;
+  }
+
+/*Make the height full as the above tag of it */
+#root{
+    height: inherit;
+}
+
+
